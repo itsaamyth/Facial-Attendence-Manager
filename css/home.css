@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+#brand{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+@media (max-width: 992px) {
+    #brand{
+        height: 80px;
+        width: 220px;
+        margin-bottom: 0;
+    }
+}
+#navmenu{
+    background-color: #123c69;
+}
+
+.navbar-nav> li> a {
+      font-size: 20px;
+      color:white;
+      margin-left: 5px;
+      font-weight: 600;
+      margin-right: 5px;
+      border-radius: 10px;
+      font-family: Poppins-Regular;
+  }
+
+  #iconnav{
+      height: 40px;
+      width: 40px;
+      margin-right: 20px;
+  }
+#active{
+  background-color: white;
+  color: black;
+}
+body{
+    background: #eee;
+}
+span{
+    font-size:15px;
+}
+.box{
+    padding:60px 0px;
+}
+.box-part{
+    background:#eee;
+    border-radius:0;
+    padding:20px 5px;
+    font-weight: 600;
+    margin:30px 0px;
+}
+.box-part:hover{
+    transition:  all 0.3s ease-in-out;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+#dash-icon{
+    height: 100px;
+    width: 100px;
+}
+#icon{
+    color: #123c69;
+    margin-top: -10px;
+}

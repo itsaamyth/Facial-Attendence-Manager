@@ -636,7 +636,25 @@
     .login100-form {
       padding-left: 15px;
       padding-right: 15px;
-      /* padding-top: 70px; */
+      padding-top: 70px;
+    }
+    #brand{
+      height: 80px;
+      width: 200px;
+      margin-left: 90px;
+      margin-bottom: 50px;
+      /* margin-left: -280px; */
+    }
+  }
+  @media only screen and (device-width: 768px) {
+    #brand{
+      height: 100px;
+      width: 200px;
+      margin-left:250px;
+      margin-top:-180px;
+      margin-bottom:50px;
+
+      /* margin-left: -280px; */
     }
   }
   

@@ -82,3 +82,21 @@ $( document ).ready(function() {
     cssEase: 'ease'
   });
 })
+
+
+// // Variable to count number of attempts.
+// // Below function Executes on click of login button.
+// function validate(){
+// var username = document.getElementById("email").value;
+// var password = document.getElementById("password").value;
+// if ( username == "mapby@123.com" && password == "12345"){
+// alert ("Login successfully");
+// window.location = "home.html"; // Redirecting to other page.
+// return false;
+// }
+// else{
+// alert("You have left attempt;");
+// // Disabling fields after 3 attempts.
+// return false;
+// }
+// }

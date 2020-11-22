@@ -1,7 +1,36 @@
-
 @font-face {
     font-family: Poppins-Regular;
     src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
   }
 #brand{
     object-fit: fill;
@@ -19,22 +48,25 @@
 }
 #navmenu{
     background-color: #123c69;
+
 }
 
 .navbar-nav> li> a {
-      font-size: 20px;
+      font-size: 18px;
       color:white;
       margin-left: 5px;
       font-weight: 600;
       margin-right: 5px;
       border-radius: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
       font-family: Poppins-Regular;
   }
 
   #iconnav{
       height: 40px;
       width: 40px;
-      margin-right: 20px;
+      margin-right: 10px;
   }
 #active{
   background-color: white;
@@ -42,6 +74,7 @@
 }
 body{
     background: #eee;
+    min-height: none;
 }
 span{
     font-size:15px;
@@ -51,10 +84,15 @@ span{
 }
 .box-part{
     background:#eee;
-    border-radius:0;
+    border-radius:5px;
     padding:20px 5px;
     font-weight: 600;
     margin:30px 0px;
+}
+@media (max-width: 768px) {
+    .box-part{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+    }
 }
 .box-part:hover{
     transition:  all 0.3s ease-in-out;
@@ -75,4 +113,10 @@ span{
 #icon{
     color: #123c69;
     margin-top: -10px;
+}
+#userDash{
+    font-family: 'Poppins-Regular', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 600;
 }
